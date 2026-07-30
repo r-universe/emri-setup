@@ -1,5 +1,10 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
-	shallow = true
+	url = https://github.com/emri-setup/emri-setup.r-universe.dev
 	branch = HEAD
+[submodule "daiacaba"]
+	path = daiacaba
+	url = https://github.com/emri-setup/daiacaba
+[submodule "tbart"]
+	path = tbart
+	url = https://github.com/cran/tbart
