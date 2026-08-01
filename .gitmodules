@@ -2,6 +2,9 @@
 	path = .registry
 	url = https://github.com/emri-setup/emri-setup.r-universe.dev
 	branch = HEAD
+[submodule "ansgis.geostat"]
+	path = ansgis.geostat
+	url = https://github.com/emri-setup/ansgis-geostat
 [submodule "daiacaba"]
 	path = daiacaba
 	url = https://github.com/emri-setup/daiacaba

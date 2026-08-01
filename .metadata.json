@@ -1,0 +1,25 @@
+[
+  {
+    "package": "ansgis.geostat",
+    "metadata": {
+      "ansgis": {
+        "producto_ansgis": "geostatistical-analyst",
+        "nombre": "AnsGIS Geostatistical Analyst",
+        "seccion": "extensiones-pro",
+        "ejecucion": "navegador",
+        "pliego": "ArcGIS Geostatistical Analyst toolbox",
+        "pliego_fuente": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/geostatistical-analyst/an-overview-of-the-geostatistical-analyst-toolbox.html",
+        "pliego_leido": "2026-08-01",
+        "herramientas_pliego": 35,
+        "herramientas_cubiertas": 17,
+        "herramientas_parciales": 13,
+        "herramientas_hueco": 5,
+        "n_fichas": 20,
+        "hash_ficha": "sha256:5d7e8072438e6a7bb2c9391f4a88a7ffb0238b4cecfc534bcc7e166be3351c53",
+        "hash_ficha_de": "inst/corpus/pliego-geostatistical-analyst.json",
+        "diccionario": "https://diccionario.daiacaba.com.ar/api/v1/kit/geostatistical-analyst",
+        "decision": "#95 linea de produccion / #99 circulo cerrado"
+      }
+    }
+  }
+]
