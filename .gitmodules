@@ -5,6 +5,9 @@
 [submodule "ansgis.geostat"]
 	path = ansgis.geostat
 	url = https://github.com/emri-setup/ansgis-geostat
+[submodule "ansgisui"]
+	path = ansgisui
+	url = https://github.com/emri-setup/ansgisui
 [submodule "daiacaba"]
 	path = daiacaba
 	url = https://github.com/emri-setup/daiacaba

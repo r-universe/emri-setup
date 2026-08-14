@@ -21,5 +21,30 @@
         "decision": "#95 linea de produccion / #99 circulo cerrado"
       }
     }
+  },
+  {
+    "package": "ansgisui",
+    "metadata": {
+      "ansgis": {
+        "producto_ansgis": "cara-calcite",
+        "nombre": "AnsGIS UI (Calcite desde R)",
+        "seccion": "cara",
+        "ejecucion": "navegador",
+        "pliego": "Esri Calcite Design System",
+        "pliego_fuente": "https://developers.arcgis.com/calcite-design-system/",
+        "pliego_leido": "2026-08-14",
+        "calcite_verificado_contra": "api.json 5.1.2",
+        "componentes_cubiertos": 8,
+        "componentes_pendientes": 1,
+        "componentes_no_exportados": 17,
+        "auditoria": "critico ciego 2026-08-14, comparacion componente por componente contra la doc oficial",
+        "auditoria_veredicto": "instala y carga; el panel lateral emite los slots correctos de Calcite 5. Pendientes: mapa vacio, responsive en celular, modo oscuro, y las 17 dash_* sin exportar hasta que sus assets viajen en inst/",
+        "auditoria_ficha": "FICHA-CRITICA-ANSGISUI.md",
+        "check": "0 ERRORs, 2 WARNINGs (no-ASCII y Rd usage)",
+        "incluye_codigo_esri": false,
+        "aviso_esri": "LICENSE.md",
+        "decision": "#212 auditoria del critico ciego / #211 cada seccion un repo / #209 la barra contra el original"
+      }
+    }
   }
 ]
