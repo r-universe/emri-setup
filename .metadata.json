@@ -1,5 +1,13 @@
 [
   {
+    "package": "daiacaba",
+    "metadata": {
+      "ansgis": {
+        "descripcion_es": "Operaciones de análisis espacial listas para usar, declaradas sobre paquetes de R que ya existen. Cada operación dice de dónde sale y con qué se calcula."
+      }
+    }
+  },
+  {
     "package": "ansgis.geostat",
     "metadata": {
       "ansgis": {
@@ -18,7 +26,8 @@
         "hash_ficha": "sha256:5d7e8072438e6a7bb2c9391f4a88a7ffb0238b4cecfc534bcc7e166be3351c53",
         "hash_ficha_de": "inst/corpus/pliego-geostatistical-analyst.json",
         "diccionario": "https://diccionario.daiacaba.com.ar/api/v1/kit/geostatistical-analyst",
-        "decision": "#95 linea de produccion / #99 circulo cerrado"
+        "decision": "#95 linea de produccion / #99 circulo cerrado",
+        "descripcion_es": "Estima valores donde no hay medición: a partir de unos pocos puntos medidos, calcula el mapa completo. Sirve para contaminación, ruido, temperatura o cualquier variable que se releva de a muestras."
       }
     }
   },
@@ -43,7 +52,8 @@
         "check": "0 ERRORs, 2 WARNINGs (no-ASCII y Rd usage)",
         "incluye_codigo_esri": false,
         "aviso_esri": "LICENSE.md",
-        "decision": "#212 auditoria del critico ciego / #211 cada seccion un repo / #209 la barra contra el original"
+        "decision": "#212 auditoria del critico ciego / #211 cada seccion un repo / #209 la barra contra el original",
+        "descripcion_es": "Dibuja la pantalla de una aplicación de mapas desde R, con el aspecto de las aplicaciones de Esri. El municipio no instala nada: la página se arma sola en el navegador de quien la abre."
       }
     }
   }
